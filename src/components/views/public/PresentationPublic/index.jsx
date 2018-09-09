@@ -1,18 +1,13 @@
 import React from 'react'
-import ProductList from '../../components/producList/'
-import ShoppingCart from '../../components/shoppingCart/'
-import { Navbar, Grid, Row, Col } from 'react-bootstrap'
+import ProductList from './ProductList'
+import ShoppingCart from './ShoppingCart'
+import { Navbar, Grid, Row, Col, Button } from 'react-bootstrap'
+import Navigation from '../../components/navegation'
 
 const PresentationPublic = () => {
   return (
     <div>
-      <Navbar inverse staticTop>
-        <Navbar.Header>
-          <Navbar.Brand>
-            <a href='./'>Ecommerce</a>
-          </Navbar.Brand>
-        </Navbar.Header>
-      </Navbar>
+      <Navigation />
 
       <Grid>
         <Row>
