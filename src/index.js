@@ -1,8 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import registerServiceWorker from './registerServiceWorker'
 import App from './components/views/public/PresentationPublic/index'
+import store from './store/index.js'
+import { Provider } from 'react-redux'
+import { loadProducts } from './actionCreator'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// Despachamos la acción
+store.dispatch(loadProducts())
+
+// Envuelvo el componente y lo paso por parametro
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+  ,
+  document.getElementById('root'))
+
+registerServiceWorker()

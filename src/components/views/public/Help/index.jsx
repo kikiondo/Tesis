@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Help = () => {
-  return(
+  return (
     <div>
       <p>Necesitas Ayuda</p>
     </div>
