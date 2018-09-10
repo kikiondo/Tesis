@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-// import { auth } from '../../../helpers/Auth'
+import { auth } from '../helpers/Auth'
+import 'pure-css/lib/forms.css'
+import 'pure-css/lib/buttons.css'
 import './login-register.css'
-import { Button, FormControl, InputGroup  } from 'react-bootstrap'
 
 export default class Register extends Component {
   constructor(...props) {
@@ -15,8 +16,8 @@ export default class Register extends Component {
 
   handleOnSubmit(e) {
     e.preventDefault()
-    // auth( this.email.value, this.password.value )
-    //   .catch( err => this.setState( this.setMessage( `Error: ${err.message}` ) ) )
+    auth( this.email.value, this.password.value )
+      .catch( err => this.setState( this.setMessage( `Error: ${err.message}` ) ) )
   }
 
   setMessage(err) {
@@ -26,13 +27,10 @@ export default class Register extends Component {
 	render() {
 		return (
 			<article className="Main-container">
-		    <h1>Registro de Usuarios</h1>
+				<h1>Registro de Usuarios</h1>
         <form className="pure-form AuthForm" onSubmit={this.handleOnSubmit}>
-          <InputGroup>
-            <InputGroup.Addon>@</InputGroup.Addon>
-              <FormControl  type="email" placeholder="Email" ref={ email => this.email = email }  />
-            </InputGroup>
-          <FormControl  type="password" placeholder="Password" ref={ password => this.password = password } />
+          <input type="email" placeholder="Email" ref={ email => this.email = email }  />
+          <input type="password" placeholder="Password" ref={ password => this.password = password } />
           {
             this.state.loginMessage &&
             <div className="u-error">
@@ -41,7 +39,7 @@ export default class Register extends Component {
               </p>
             </div>
           }
-          <Button type="submit">Registrar</Button>
+          <input type="submit" className="pure-button  pure-button-primary" value="Registrar" />
         </form>
 			</article>
 		)
