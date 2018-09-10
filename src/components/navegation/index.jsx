@@ -12,7 +12,7 @@ const Navigation = () => {
       <div className='Navigation-Options'>
         <button className='Navigation-button'>Registrate</button>
         <button className='Navigation-button'>Iniciar Sesión</button>
-        <a href='#'>¿Necesitas Ayuda?</a>
+        <a href='./'>¿Necesitas Ayuda?</a>
       </div>
     </div>
   )

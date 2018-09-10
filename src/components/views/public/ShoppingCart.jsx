@@ -1,6 +1,6 @@
 import React from 'react'
 import { Panel, Table, Button, Glyphicon } from 'react-bootstrap'
-import { removeFromCart } from '../../../../actionCreator'
+import { removeFromCart } from '../../../actionCreator'
 import { connect } from 'react-redux'
 
 const styles = {

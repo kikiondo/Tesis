@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Glyphicon } from 'react-bootstrap'
-import { addToCart } from '../../../../actionCreator'
+import { addToCart } from '../../../actionCreator'
 import { connect } from 'react-redux'
 
 const styles = {
