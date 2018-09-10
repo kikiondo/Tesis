@@ -13,7 +13,7 @@ const optionsCategories = categories.map( cat => Object.assign( {}, { label: cat
 const CourseAddForm = props => (
   <form className="pure-form  AddForm" onSubmit={props.onAddCourse}>
     <input type="hidden" name="id" value={uid(10)} />
-    <input type="text" placeholder="Nombre del Curso" name="name" />
+    <input type="text" placeholder="Nombre del Evento" name="name" />
     <input type="url" placeholder="poster" name="poster" />
     <input type="url" placeholder="web" name="url" />
     <input type="number" placeholder="costo" name="amount" />

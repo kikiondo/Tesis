@@ -16,7 +16,7 @@ import Error404 from './pages/Error404'
 import { logout } from './helpers/Auth'
 import 'pure-css/lib/menus.css'
 import './index.css'
-import EDteamLogo from './media/edteam-logo.png'
+import ExposerLogo from './media/exposer-logo.png'
 
 const PrivateRoute = ({ component: Component, authed, rest }) => (
   <Route
@@ -90,7 +90,7 @@ class App extends Component {
             <header className="custom-menu-wrapper">
               <div className="pure-menu custom-menu custom-menu-top">
                   <a href="#" className="pure-menu-heading custom-menu-brand">
-                    <img className="edteam-logo" src={EDteamLogo} alt="EDteam"/>
+                    <img className="exposer-logo" src={ExposerLogo} alt="EDteam"/>
                   </a>
                   <a href="#" className="custom-menu-toggle" id="toggle" onClick={this.handleOnClick}><s className="bar"></s><s className="bar"></s></a>
               </div>

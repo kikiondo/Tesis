@@ -2,7 +2,7 @@
   "courses": [
     {
       "id": 1,
-      "name": "Curso PHP7 Desde Cero",
+      "name": "Evento PHP7 Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/php-poster.jpg?itok=BNxvEPos",
       "url": "https://ed.team/cursos/php",
       "amount": "40",
@@ -18,7 +18,7 @@
     },
     {
       "id": 2,
-      "name": "Curso Git Desde Cero",
+      "name": "Evento Git Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/git-poster_0.jpg?itok=hhP3R72F",
       "url": "https://ed.team/cursos/git",
       "amount": "40",
@@ -34,7 +34,7 @@
     },
     {
       "id": 3,
-      "name": "Curso Bases de Datos Desde Cero",
+      "name": "Evento Bases de Datos Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/sql-poster.jpg?itok=5YUH9emm",
       "url": "https://ed.team/cursos/sql",
       "amount": "40",
@@ -48,7 +48,7 @@
     },
     {
       "id": 4,
-      "name": "Curso WordPress Desde Cero",
+      "name": "Evento WordPress Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/wordpress-poster_0.jpg?itok=sTuO173c",
       "url": "https://ed.team/cursos/wordpress",
       "amount": "40",
@@ -68,7 +68,7 @@
     },
     {
       "id": 5,
-      "name": "Curso Java Desde Cero",
+      "name": "Evento Java Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/java-poster.jpg?itok=CXv_HZmX",
       "url": "https://ed.team/cursos/java",
       "amount": "40",
@@ -84,7 +84,7 @@
     },
     {
       "id": 6,
-      "name": "Curso Sass Desde Cero",
+      "name": "Evento Sass Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/sass-poster.jpg?itok=5N2-EjFB",
       "url": "https://ed.team/cursos/sass",
       "amount": "40",
@@ -101,7 +101,7 @@
     },
     {
       "id": 7,
-      "name": "Curso Photoshop Desde Cero",
+      "name": "Evento Photoshop Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/photoshop-poster.jpg?itok=ttOE1c6C",
       "url": "https://ed.team/cursos/photoshop",
       "amount": "40",
@@ -115,7 +115,7 @@
     },
     {
       "id": 8,
-      "name": "Curso Node.js Desde Cero",
+      "name": "Evento Node.js Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/nodejs-poster.jpg?itok=CXtyA0Bm",
       "url": "https://ed.team/cursos/nodejs",
       "amount": "40",
@@ -133,7 +133,7 @@
     },
     {
       "id": 9,
-      "name": "Curso Teoria del Diseño Desde Cero",
+      "name": "Evento Teoria del Diseño Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/design-poster_0.jpg?itok=N91JApxR",
       "url": "https://ed.team/cursos/design",
       "amount": "40",
@@ -146,7 +146,7 @@
     },
     {
       "id": 10,
-      "name": "Curso Marketing Desde Cero",
+      "name": "Evento Marketing Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/marketing-poster_1.jpg?itok=1VEsrzUp",
       "url": "https://ed.team/cursos/marketing",
       "amount": "40",
@@ -160,7 +160,7 @@
     },
     {
       "id": 11,
-      "name": "Curso GO Desde Cero",
+      "name": "Evento GO Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/go-poster-720.jpg?itok=SAEbEnMo",
       "url": "https://ed.team/cursos/go",
       "amount": "40",
@@ -175,7 +175,7 @@
     },
     {
       "id": 12,
-      "name": "Curso HTML5 Desde Cero",
+      "name": "Evento HTML5 Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/html-poster-720.jpg?itok=UAXq4RCj",
       "url": "https://ed.team/cursos/html",
       "amount": "40",
@@ -189,7 +189,7 @@
     },
     {
       "id": 13,
-      "name": "Curso Illustrator Desde Cero",
+      "name": "Evento Illustrator Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/illustrator-poster-720.jpg?itok=uUMnNbNe",
       "url": "https://ed.team/cursos/illustrator",
       "amount": "40",
@@ -203,7 +203,7 @@
     },
     {
       "id": 14,
-      "name": "Curso CSS Desde Cero",
+      "name": "Evento CSS Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/css-poster-720.jpg?itok=yGHgYoXK",
       "url": "https://ed.team/cursos/css",
       "amount": "40",
@@ -218,7 +218,7 @@
     },
     {
       "id": 15,
-      "name": "Curso Programación Desde Cero",
+      "name": "Evento Programación Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/programacion-poster-720.jpg?itok=Rv3JEczq",
       "url": "https://ed.team/cursos/programacion",
       "amount": "40",
@@ -231,7 +231,7 @@
     },
     {
       "id": 16,
-      "name": "Curso JavaScript Desde Cero",
+      "name": "Evento JavaScript Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/js-poster_6.jpg?itok=e4HRh45r",
       "url": "https://ed.team/cursos/javascript",
       "amount": "40",
@@ -246,7 +246,7 @@
     },
     {
       "id": 17,
-      "name": "Curso Android Desde Cero",
+      "name": "Evento Android Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/android-poster-720.jpg?itok=B8ECLZVA",
       "url": "https://ed.team/cursos/android",
       "amount": "40",
@@ -261,7 +261,7 @@
     },
     {
       "id": 18,
-      "name": "Curso Drupal 8 Desde Cero",
+      "name": "Evento Drupal 8 Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/drupal-poster-720.jpg?itok=XnaU4SBG",
       "url": "https://ed.team/cursos/drupal",
       "amount": "40",
@@ -279,7 +279,7 @@
     },
     {
       "id": 19,
-      "name": "Curso React Desde Cero",
+      "name": "Evento React Desde Cero",
       "poster": "https://ed.team/sites/default/files/styles/large/public/courses/images/react-poster-720.jpg?itok=avZLRYlA",
       "url": "https://ed.team/cursos/react",
       "amount": "40",
