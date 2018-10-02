@@ -108,7 +108,7 @@ class App extends Component {
                       ?
                         <span>
                           <li className="pure-menu-item">
-                            <Link to="/cursos" className="pure-menu-link" onClick={this.handleOnClick}>Cursos</Link>
+                            <Link to="/cursos" className="pure-menu-link" onClick={this.handleOnClick}>Eventos</Link>
                           </li>
                           <li className="pure-menu-item">
                             <Link 
